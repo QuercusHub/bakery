@@ -218,3 +218,31 @@ body {
 		flex: 0 0 auto;
 	}
 }
+/*#######################################################*/
+/*#######################################################*/
+/*#######################################################*/
+.sience {
+	background-color: rgba(231, 212, 190, 0.44);
+	margin: 90px 0px 0px 0px;
+}
+.sience__container {
+	display: flex;
+	align-items: center;
+}
+.sience__content {
+	flex: 0 1 52%;
+}
+.sience__block-text {
+	max-width: 467px;
+}
+.block-text {
+}
+.block-text__sience {
+}
+.block-text__title {
+}
+.block-text__text {
+}
+.sience__image {
+	flex: 0 1 48%;
+}
