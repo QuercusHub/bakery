@@ -51,7 +51,7 @@ body {
 	flex: 1 1 auto;
 }
 
-/*********************************************************/@at-root
+/*********************************************************/
 .header {
 	position: absolute;
 	width: 100%;
@@ -103,21 +103,10 @@ body {
 		background-color: #F9BF77;
 		padding: 80px 15px 30px 15px;
 		transition: left 0.3s ease 0s;
-		
 	}
 	.header:target .menu__body {
 		left: 0;
 	}
-	// .header:target .menu__body::before {
-	// 	content: "";
-	// 	position: fixed;
-	// 	top: 0;
-	// 	left: 0;
-	// 	height: 80px;
-	// 	width: 100%;
-	// 	background-color: #F9BF77;
-	// 	transition: left 0.3s ease 0s;
-	// }
 	.menu__list {
 		gap: 20px;
 		flex-direction: column;
@@ -220,13 +209,14 @@ body {
 }
 /*#######################################################*/
 /*#######################################################*/
-/*#######################################################*/
 .sience {
 	background-color: rgba(231, 212, 190, 0.44);
 	margin: 90px 0px 0px 0px;
 }
+
 .sience__container {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 }
 .sience__content {
@@ -234,15 +224,45 @@ body {
 }
 .sience__block-text {
 	max-width: 467px;
-}
-.block-text {
-}
-.block-text__sience {
-}
-.block-text__title {
-}
-.block-text__text {
+	// padding: 0px 120px 0px 0px;
 }
 .sience__image {
 	flex: 0 1 48%;
 }
+.sience__image img{
+	width: 100%;
+	object-fit: cover;
+}
+/*#######################################################*/
+/*#######################################################*/
+.block-text {
+}
+.block-text__sience {
+	font-family: 'Oswald';
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.block-text__title {
+	font-family: 'Ultra';
+	font-size: 22px;
+	line-height: 20px;
+	color: #000;
+	margin: 21px 0px 0px 0px;
+}
+.block-text__text {
+	font-size: 20px;
+	line-height: 32px;
+	color: #000000;
+	margin: 27px 0px 20px 0px;
+}
+// @media (max-width: 767.98px){
+// 	.block-text__title {
+// 		font-size: 22px;
+// 		line-height: 60px;
+// 		color: #000;
+// 		margin: 21px 0px 0px 0px;
+// 	}
+// }

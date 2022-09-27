@@ -370,7 +370,6 @@ body {
 }
 /*#######################################################*/
 /*#######################################################*/
-/*#######################################################*/
 .sience {
   background-color: rgba(231, 212, 190, 0.44);
   margin: 90px 0px 0px 0px;
@@ -380,6 +379,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -399,4 +402,36 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 48%;
           flex: 0 1 48%;
+}
+
+.sience__image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*#######################################################*/
+/*#######################################################*/
+.block-text__sience {
+  font-family: "Oswald";
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.block-text__title {
+  font-family: "Ultra";
+  font-size: 22px;
+  line-height: 20px;
+  color: #000;
+  margin: 21px 0px 0px 0px;
+}
+
+.block-text__text {
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  margin: 27px 0px 20px 0px;
 }
